@@ -1,0 +1,51 @@
+.navbar {
+   background-color: #000;
+   background: #000;
+   border-bottom: 0px solid transparent;
+}
+
+.navbar li { color: #000 } 
+
+.navbar-toggle {
+  background-color: #000000 !important;
+  color: #000000 !important;
+  border: 0px !important;
+}
+
+.navbar-collapse {
+  border-top: 0px solid transparent !important;
+  background: #000;
+  background-color: #000;
+}
+
+.jumbotron {
+  margin-top: 60px;
+  text-align: center;
+  border-bottom: 0px solid #e5e5e5;
+}
+
+.header {
+  border-bottom: 0px solid transparent;
+}
+
+.footer {
+  padding-top: 0px;
+  color: #777;
+  border-top: 0px solid transparent;
+}
+
+a:active {
+  text-decoration;underline;
+}
+
+.btn-custom {
+  color: #000000 !important;
+}
+
+.title-font {
+  color: #999 !important;
+}
+
+h1.title-font {
+  font
+}
