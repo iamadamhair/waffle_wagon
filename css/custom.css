@@ -1,34 +1,46 @@
 .navbar {
-   background-color: #000;
-   background: #000;
+   background-color: #FFFFB0;
+   background: #FFFFB0;
    border-bottom: 0px solid transparent;
 }
 
-.navbar li { color: #000 } 
+.navbar-default {
+  background-color: #FFFFB0 !important;
+}
 
 .navbar-toggle {
-  background-color: #000000 !important;
-  color: #000000 !important;
+  background-color: #FFFFB0 !important;
+  color: #FFFFB0 !important;
   border: 0px !important;
 }
 
+.fa-inverse {
+color: #704040 !important;
+}
+
 .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
-  background-color: #a58520 !important;
+  background-color: #704040 !important;
   color: #FFF !important;
 }
 
 a {
-  color: #a58520 !important;
+  color: #704040 !important;
 }
 
-.navbar-collapse {
-  border-top: 0px solid transparent !important;
-  background: #000;
-  background-color: #000;
+body{
+  background-color: #FFFFB0; 
+}
+
+.logo {
+  background-color: #FFF; 
+  background-image:url('images/new_logo.jpg'); 
+  background-repeat: no-repeat; 
+  background-position: center center;
+  max-width: 100%;
 }
 
 .btn-custom {
-  color: #7c6a31!important;
+  color: #704040!important;
 }
 
 .paypal_purchase {
@@ -46,12 +58,43 @@ a {
   float: center !important;
 }
 
+.carousel-inner {
+    border-radius: 6px !important;
+}
+
 .carousel .item { 
   background-color: none !important;
 }
 
 .carousel {
   border-radius: 6px !important;
+}
+
+.stay {
+  width: 100% !important;
+  
+  position: fixed !important;
+  z-index: 0;
+}
+
+.stay2 {
+  z-index: 0;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.navstay {
+ position: fixed !important;
+}
+
+.jumbotron {
+  position: relative;
+  background-color: #FFF !important;
+}
+
+.floater {
+  margin-top: 500px;
+  z-index: 3;
 }
 
 .carousel-control.left {
