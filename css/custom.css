@@ -1,7 +1,7 @@
 .navbar {
    background-color: #FFFFB0;
    background: #FFFFB0;
-   border-bottom: 0px solid transparent;
+   border: 0px solid transparent;
 }
 
 .navbar-default {
@@ -12,6 +12,11 @@
   background-color: #FFFFB0 !important;
   color: #FFFFB0 !important;
   border: 0px !important;
+}
+
+
+.navbar-collapse {
+  border-top: 0 !important;
 }
 
 .fa-inverse {
@@ -68,17 +73,15 @@ body{
 
 .carousel {
   border-radius: 6px !important;
+  margin-bottom: 0 !important;
 }
 
 .stay {
   width: 100% !important;
   
-  position: fixed !important;
-  z-index: 0;
 }
 
 .stay2 {
-  z-index: 0;
   margin-right: auto !important;
   margin-left: auto !important;
 }

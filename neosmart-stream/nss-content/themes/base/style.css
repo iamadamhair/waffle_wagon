@@ -16,7 +16,8 @@
 	}	
 	.nss-preview .nss-stream{
 		max-width:740px;
-		margin:20px auto;
+		/*margin:20px auto;*/
+		margin: 0;
 	}	
 	.nss.nss-load{
 		background:url(ajax-loader.gif) no-repeat center center;
@@ -37,7 +38,8 @@
 		font-family:Arial, Helvetica, sans-serif;
 		color:#000;
 		margin:0;
-		padding:10px 0;
+		padding:0;
+		/* padding: 10px 0; */
 		line-height:1em;
 		font-size:16px;
 		display:block;
