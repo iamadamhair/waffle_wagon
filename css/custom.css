@@ -14,7 +14,6 @@
   border: 0px !important;
 }
 
-
 .navbar-collapse {
   border-top: 0 !important;
 }
@@ -23,9 +22,8 @@
 color: #704040 !important;
 }
 
-.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
-  background-color: #704040 !important;
-  color: #FFF !important;
+.nav>li>a {
+  border-radius: 4px;
 }
 
 a {
@@ -36,12 +34,9 @@ body{
   background-color: #FFFFB0; 
 }
 
-.logo {
-  background-color: #FFF; 
-  background-image:url('images/new_logo.jpg'); 
-  background-repeat: no-repeat; 
-  background-position: center center;
-  max-width: 100%;
+.menu {
+  background-image: url('images/new_logo.jpg') !important; 
+  background-position: center center !important;
 }
 
 .btn-custom {
@@ -49,7 +44,7 @@ body{
 }
 
 .paypal_purchase {
-  max-width: 100px;
+  max-width: 200px;
 }
 
 .divider {
@@ -61,6 +56,7 @@ body{
   margin: 0 auto !important;
   max-width: none !important;
   float: center !important;
+  min-height: 100% !important;
 }
 
 .carousel-inner {
@@ -106,6 +102,18 @@ body{
 
 .carousel-control.right {
   background-image: none !important;
+}
+
+.centered-element {
+  display: block;
+  float: center;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.select {
+  margin-right: auto !important;
+  margin-left: auto !important;
 }
 
 @media (min-width: 768px) {

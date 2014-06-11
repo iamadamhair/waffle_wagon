@@ -55,22 +55,22 @@
         <p class="lead">Can't wait to buy a shirt from the truck? Buy one online!</p>
         <p class="lead">Make sure to put the address you want your shirt shipped to in the notes to seller</p>
         <div class="row">
-          <div class="col-md-6"><img src="images/shirt_front.jpg"></div>
-          <div class="col-md-6"><img src="images/shirt_back.jpg"></div>
+          <div class="col-md-6"><img src="images/shirt_front.jpg" style="max-width: 100%;"></div>
+          <div class="col-md-6"><img src="images/shirt_back.jpg" style="max-width: 100%;"></div>
         </div>
         <div class="paypal_purchase stay2">
           <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <input type="hidden" name="cmd" value="_s-xclick">
             <input type="hidden" name="hosted_button_id" value="AB2F3SQ8EWFTL">
               <table>
-                <tr><td><input type="hidden" name="on0" value="Sizes"></td></tr><tr><td><select name="os0">
+                <tr><td><div class="centered-element"><input type="hidden" name="on0" value="Sizes"></td></tr><tr><td><select name="os0" style="margin-left: 30px;">
                   <option value="Small">Small $18.00 USD</option>
                   <option value="Medium">Medium $18.00 USD</option>
                   <option value="Large">Large $18.00 USD</option>
-                </select> </td></tr>
+                </select> </div></td></tr>
               </table>
             <input type="hidden" name="currency_code" value="USD">
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin-top: 10px">
+            <input type="image" class="centered-element" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin-top: 10px;">
             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
           </form>
         </div>
