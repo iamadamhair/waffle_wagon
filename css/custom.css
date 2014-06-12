@@ -34,7 +34,7 @@ body{
   background-color: #FFFFB0; 
 }
 
-.menu {
+div.menu {
   background-image: url('images/new_logo.jpg') !important; 
   background-position: center center !important;
 }
@@ -65,6 +65,7 @@ body{
 
 .carousel .item { 
   background-color: none !important;
+  border-radius: 6px !important;
 }
 
 .carousel {
@@ -82,6 +83,9 @@ body{
   margin-left: auto !important;
 }
 
+.twitter {
+  margin-top: 40px;
+}
 .navstay {
  position: fixed !important;
 }
@@ -116,9 +120,26 @@ body{
   margin-left: auto !important;
 }
 
+.nopadding {
+  padding: 0 !important;
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 960px !important;
+  }
+}
+
+@media (max-width: 768px){
+  .carousel .item {
+  height: 250px !important;
+  margin-bottom: 40px;
+  }
+  .carousel {
+    height: 250px !important;
+  }
+  .twitter {
+    margin-top: 20px;
   }
 }
 
