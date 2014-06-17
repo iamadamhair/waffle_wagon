@@ -103,6 +103,12 @@ div.menu {
   .carousel {
     height: 250px !important;
   }
+  .nav>li>a:active {
+    background-color: #e7e7e7 !important;
+  }
+  .navbar-default .navbar-toggle:active {
+    background-color: #e7e7e7 !important;
+  }
   .twitter {
     margin-top: 20px;
   }
