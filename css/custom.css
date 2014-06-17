@@ -1,56 +1,25 @@
-.navbar {
-   background-color: #FFFFB0;
-   background: #FFFFB0;
-   border: 0px solid transparent;
-}
-
-.navbar-default {
-  background-color: #FFFFB0 !important;
-}
-
-.navbar-toggle {
-  background-color: #FFFFB0 !important;
-  color: #FFFFB0 !important;
-  border: 0px !important;
-}
-
-.navbar-collapse {
-  border-top: 0 !important;
-}
-
-.fa-inverse {
-color: #704040 !important;
-}
-
-.nav>li>a {
-  border-radius: 4px;
-}
-
 a {
   color: #704040 !important;
 }
-
-body{
-  background-color: #FFFFB0; 
-}
-
-div.menu {
-  background-image: url('images/new_logo.jpg') !important; 
-  background-position: center center !important;
-}
-
 .btn-custom {
   color: #704040!important;
 }
-
-.paypal_purchase {
-  max-width: 200px;
+body{
+  background-color: #FFFFB0; 
 }
-
-.divider {
-  text-align: left !important;
+.carousel {
+  border-radius: 6px !important;
+  margin-bottom: 0 !important;
 }
-
+.carousel-control.left {
+  background-image: none !important;
+}
+.carousel-control.right {
+  background-image: none !important;
+}
+.carousel-inner {
+  border-radius: 6px !important;
+}
 .carousel-inner > .item > img {
   position: relative !important;
   margin: 0 auto !important;
@@ -58,78 +27,74 @@ div.menu {
   float: center !important;
   min-height: 100% !important;
 }
-
-.carousel-inner {
-    border-radius: 6px !important;
-}
-
 .carousel .item { 
   background-color: none !important;
   border-radius: 6px !important;
 }
-
-.carousel {
-  border-radius: 6px !important;
-  margin-bottom: 0 !important;
-}
-
-.stay {
-  width: 100% !important;
-  
-}
-
-.stay2 {
-  margin-right: auto !important;
-  margin-left: auto !important;
-}
-
-.twitter {
-  margin-top: 40px;
-}
-.navstay {
- position: fixed !important;
-}
-
-.jumbotron {
-  position: relative;
-  background-color: #FFF !important;
-}
-
-.floater {
-  margin-top: 500px;
-  z-index: 3;
-}
-
-.carousel-control.left {
-  background-image: none !important;
-}
-
-.carousel-control.right {
-  background-image: none !important;
-}
-
 .centered-element {
   display: block;
   float: center;
   margin-right: auto !important;
   margin-left: auto !important;
 }
-
-.select {
-  margin-right: auto !important;
-  margin-left: auto !important;
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #FFF !important;
+  border: 0px solid !important;
+  border: 0px solid !important;
 }
-
+div.menu {
+  background-image: url('images/new_logo.jpg') !important; 
+  background-position: center center !important;
+}
+.divider {
+  text-align: left !important;
+}
+.jumbotron {
+  position: relative;
+  background-color: #FFF !important;
+}
+.nav>li>a {
+  border-radius: 4px;
+}
+.navbar {
+   background-color: #FFFFB0;
+   background: #FFFFB0;
+   border: 0px solid transparent;
+}
+.navbar-default {
+  background-color: #FFFFB0 !important;
+}
+.navbar-collapse {
+  border-top: 0 !important;
+}
+.navbar-toggle {
+  background-color: #FFFFB0 !important;
+  color: #FFFFB0 !important;
+  border: 0px !important;
+}
+.fa-inverse {
+  color: #704040 !important;
+}
 .nopadding {
   padding: 0 !important;
 }
-
+.paypal_purchase {
+  max-width: 200px;
+}
+.stay_center {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.twitter {
+  margin-top: 40px;
+}
 @media (min-width: 768px) {
   .container {
     max-width: 960px !important;
   }
 }
-
 @media (max-width: 768px){
   .carousel .item {
   height: 250px !important;
@@ -141,12 +106,4 @@ div.menu {
   .twitter {
     margin-top: 20px;
   }
-}
-
-[class*="col-"] {
-padding-top: 15px;
-padding-bottom: 15px;
-background-color: #FFF !important;
-border: 0px solid !important;
-border: 0px solid !important;
 }
